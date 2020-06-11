@@ -25,6 +25,7 @@ Commute habit options:
 #### Use of employee perks
 
 ![](survey_analysis_git_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+
 Follow-up question: why did you not use any of them?
 
 #### Commute modes most interested in trying
