@@ -22,6 +22,9 @@ Commute habit options:
 
 ![](survey_analysis_git_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
+Carpool and bus appear to be the commute options used most frequently.
+Other options are excluded in the regression models.
+
 #### Use of employee perks
 
 ![](survey_analysis_git_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
@@ -31,6 +34,9 @@ Follow-up question: why did you not use any of them?
 #### Commute modes most interested in trying
 
 ![](survey_analysis_git_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+
+Since most people were not interested in walk and scooter, these options
+are excluded from the regression models.
 
 ### OLS
 
@@ -179,6 +185,10 @@ Follow-up question: why did you not use any of them?
     ## Residual standard error: 27.94 on 1137 degrees of freedom
     ## Multiple R-squared:  0.05008,    Adjusted R-squared:  0.04757 
     ## F-statistic: 19.98 on 3 and 1137 DF,  p-value: 0.000000000001265
+
+    ##   value bike membership transit pass vanpool subsidy
+    ## 1 FALSE             969          492            1043
+    ## 2  TRUE             172          649              98
 
 ### OLS with modes most interested in trying
 
